@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="rd_fifo" Register="114" Alu="32" Lut="102" Bsram="1" T_Register="114(114)" T_Alu="32(32)" T_Lut="102(102)" T_Bsram="1(1)"/>

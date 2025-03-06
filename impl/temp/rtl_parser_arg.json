@@ -1,0 +1,213 @@
+{
+ "Device" : "GW5AT-138B",
+ "Files" : [
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/gowin_pll/pll_vga.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/amba/apb_mux9.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi2apb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/config.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Game/apb_Game.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Game/Game.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/hpet/hpet.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_0/blk_mem_gen_0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_1/blk_mem_gen_1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/pll_sdram_sd_card.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/baudgen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rfifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tfifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/led_alarm.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_ctrl_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_init.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_read.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_read_photo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_write.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/vga_driver.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_4port_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_cmd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_data.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_para.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/detect_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_bps_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_control_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_ctrl.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_pic.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_rom_pic_jump.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/a_loongarch/1C103/1C102/src/hw/Video/Video_top.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/a_loongarch/1C103/1C102/impl/temp/rtl_parser.result",
+ "Top" : "godson_mcu_top",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}

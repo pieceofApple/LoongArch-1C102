@@ -1,0 +1,210 @@
+F:/a_loongarch/1C103/1C102/src/hw/io_tools.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/io_tools.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module GPIO_IOBUF
+-- Compiling module I2C_IOBUF
+-- Compiling module SPI_IOBUF
+
+Top level modules:
+	GPIO_IOBUF
+	I2C_IOBUF
+	SPI_IOBUF
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/hpet/hpet.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/hpet/hpet.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module HPET_TOP
+
+Top level modules:
+	HPET_TOP
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UART_TOP
+
+Top level modules:
+	UART_TOP
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/baudgen.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/baudgen.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module BAUDGEN
+
+Top level modules:
+	BAUDGEN
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module godson_rcg_module
+-- Compiling module sync_module
+-- Compiling module areset_sync
+-- Compiling module reset_sync
+-- Compiling module dotest_sync
+-- Compiling module cpu_rcg
+-- Compiling module clock_select_32k
+-- Compiling module clock_select_328
+-- Compiling module gfmux
+-- Compiling module cg_module
+-- Compiling module TECH_ICG
+-- Compiling module TECH_CNBUF
+-- Compiling module TECH_CNAND2
+-- Compiling module TECH_CNOR2
+-- Compiling module TECH_CNMUX2
+-- Compiling module TECH_CNDFFR
+-- Compiling module TECH_CNXOR2
+-- Compiling module TECH_LATCH
+-- Compiling module FUNC_CG_CELL
+-- Compiling module TECH_BUF
+-- Compiling module clk8m_32k
+
+Top level modules:
+	godson_rcg_module
+	cpu_rcg
+	cg_module
+	TECH_CNDFFR
+	TECH_CNXOR2
+	FUNC_CG_CELL
+	TECH_BUF
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/iic/i2c_slave_byte_ctrl.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/iic/i2c_slave_byte_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module i2c_slave_byte_ctrl
+
+Top level modules:
+	i2c_slave_byte_ctrl
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_1/blk_mem_gen_1.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_1/blk_mem_gen_1.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module blk_mem_gen_1
+
+Top level modules:
+	blk_mem_gen_1
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/spi/spi_fifo4.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/spi/spi_fifo4.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module spi_fifo4
+
+Top level modules:
+	spi_fifo4
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module CONFREG
+-- Compiling module one_int_gen
+
+Top level modules:
+	CONFREG
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/pwm/pwm.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/pwm/pwm.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module PWM_TOP
+
+Top level modules:
+	PWM_TOP
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_sim.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_sim.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module la132_top
+
+Top level modules:
+	la132_top
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/amba/axi2apb.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/amba/axi2apb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module axi2apb_bridge
+
+Top level modules:
+	axi2apb_bridge
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rx.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rx.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UART_RX
+
+Top level modules:
+	UART_RX
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/spi/spi_top.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/spi/spi_top.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module SPI_TOP
+
+Top level modules:
+	SPI_TOP
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tx.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tx.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UART_TX
+
+Top level modules:
+	UART_TX
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/spi/simple_spi_top.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/spi/simple_spi_top.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module simple_spi_top
+
+Top level modules:
+	simple_spi_top
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/gowin_pll.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/gowin_pll.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module Gowin_PLL
+
+Top level modules:
+	Gowin_PLL
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_tb.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_tb.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module godson_mcu_tb
+
+Top level modules:
+	godson_mcu_tb
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module axi_slave_mux_cpu
+-- Compiling module nb_sync_fifo_mux
+
+Top level modules:
+	axi_slave_mux_cpu
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rfifo.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rfifo.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UART_RFIFO
+
+Top level modules:
+	UART_RFIFO
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module godson_mcu_cpu
+-- Compiling module Dram_8k
+-- Compiling module Flash_128k
+
+Top level modules:
+	godson_mcu_cpu
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/amba/apb_mux9.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/amba/apb_mux9.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module apb_mux9
+
+Top level modules:
+	apb_mux9
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module GPIO_TOP
+
+Top level modules:
+	GPIO_TOP
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tfifo.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tfifo.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module UART_TFIFO
+
+Top level modules:
+	UART_TFIFO
+
+} {} {}} F:/a_loongarch/1C103/1C102/src/hw/iic/i2c_slave_bit_ctrl.v {1 {vlog -work work -novopt -stats=none F:/a_loongarch/1C103/1C102/src/hw/iic/i2c_slave_bit_ctrl.v
+Model Technology ModelSim SE-64 vlog 10.5 Compiler 2016.02 Feb 13 2016
+-- Compiling module i2c_slave_bit_ctrl
+
+Top level modules:
+	i2c_slave_bit_ctrl
+
+} {} {}}

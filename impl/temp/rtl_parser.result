@@ -1,0 +1,1056 @@
+[
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+  "InstLine" : 3,
+  "InstName" : "godson_mcu_top",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "godson_mcu_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 93,
+    "InstName" : "pll_CLK50M_to_8M",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 205,
+    "InstName" : "A_cpu",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "godson_mcu_cpu",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 261,
+      "InstName" : "A_la132",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+      "ModuleLine" : 391,
+      "ModuleName" : "la132_top"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 232,
+      "InstName" : "A_flash",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "ModuleLine" : 729,
+      "ModuleName" : "Flash_128k",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+        "InstLine" : 757,
+        "InstName" : "flash_128k_inst",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_0/blk_mem_gen_0.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "blk_mem_gen_0"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 244,
+      "InstName" : "A_dram",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "ModuleLine" : 687,
+      "ModuleName" : "Dram_8k",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+        "InstLine" : 715,
+        "InstName" : "ram_8k_inst",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/blk_mem_gen_1/blk_mem_gen_1.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "blk_mem_gen_1"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 380,
+      "InstName" : "A_cpu_mux",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+      "ModuleLine" : 23,
+      "ModuleName" : "axi_slave_mux_cpu",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+        "InstLine" : 1773,
+        "InstName" : "wr_fifo",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+        "ModuleLine" : 1982,
+        "ModuleName" : "nb_sync_fifo_mux"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+        "InstLine" : 1942,
+        "InstName" : "rd_fifo",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi_mux.v",
+        "ModuleLine" : 1982,
+        "ModuleName" : "nb_sync_fifo_mux"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 499,
+      "InstName" : "A_axi2apb",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/axi2apb.v",
+      "ModuleLine" : 12,
+      "ModuleName" : "axi2apb_bridge"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_cpu.v",
+      "InstLine" : 552,
+      "InstName" : "A_apb_mux_cpu",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/amba/apb_mux9.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "apb_mux9"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 329,
+    "InstName" : "my_gpio",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "GPIO_TOP",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 86,
+      "InstName" : "pad_GPIO01",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 87,
+      "InstName" : "pad_GPIO13",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 88,
+      "InstName" : "pad_GPIO18",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 89,
+      "InstName" : "pad_GPIO19",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 90,
+      "InstName" : "pad_GPIO20",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 92,
+      "InstName" : "pad_GPIO34",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 93,
+      "InstName" : "pad_GPIO35",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 94,
+      "InstName" : "pad_GPIO36",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 95,
+      "InstName" : "pad_GPIO37",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 96,
+      "InstName" : "pad_GPIO38",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 97,
+      "InstName" : "pad_GPIO39",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/gpio/gpio.v",
+      "InstLine" : 98,
+      "InstName" : "pad_GPIO40",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "GPIO_IOBUF"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 359,
+    "InstName" : "my_hpet_timer",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/hpet/hpet.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "HPET_TOP"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 373,
+    "InstName" : "my_confreg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "CONFREG",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 74,
+      "InstName" : "int0",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 76,
+      "InstName" : "int1",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 78,
+      "InstName" : "int2",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 80,
+      "InstName" : "int3",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 82,
+      "InstName" : "int4",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 84,
+      "InstName" : "int5",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 86,
+      "InstName" : "int6",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "InstLine" : 88,
+      "InstName" : "int7",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/confreg/confreg.v",
+      "ModuleLine" : 97,
+      "ModuleName" : "one_int_gen"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 397,
+    "InstName" : "my_uart1",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "UART_TOP",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+      "InstLine" : 98,
+      "InstName" : "uBAUDGEN",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/baudgen.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "BAUDGEN"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+      "InstLine" : 108,
+      "InstName" : "uFIFO_TX",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tfifo.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "UART_TFIFO"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+      "InstLine" : 133,
+      "InstName" : "uFIFO_RX",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rfifo.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "UART_RFIFO"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+      "InstLine" : 156,
+      "InstName" : "uUART_RX",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_rx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "UART_RX"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_top.v",
+      "InstLine" : 169,
+      "InstName" : "uUART_TX",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/uart/uart_tx.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "UART_TX"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 460,
+    "InstName" : "Game_Interface",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Game/apb_Game.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "apb_Game"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 515,
+    "InstName" : "Game",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Game/Game.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Game"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_mcu_top.v",
+    "InstLine" : 547,
+    "InstName" : "Video_output",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/Video_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Video_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/Video_top.v",
+      "InstLine" : 52,
+      "InstName" : "vga",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_rom_pic_jump.v",
+      "ModuleLine" : 15,
+      "ModuleName" : "vga_rom_pic_jump",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_rom_pic_jump.v",
+        "InstLine" : 84,
+        "InstName" : "pll_vga_inst",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/gowin_pll/pll_vga.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "pll_vga"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_rom_pic_jump.v",
+        "InstLine" : 92,
+        "InstName" : "vga_ctrl_inst",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_ctrl.v",
+        "ModuleLine" : 15,
+        "ModuleName" : "vga_ctrl"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_rom_pic_jump.v",
+        "InstLine" : 109,
+        "InstName" : "vga_pic_inst",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/vga/vga_pic.v",
+        "ModuleLine" : 15,
+        "ModuleName" : "vga_pic"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/Video_top.v",
+      "InstLine" : 109,
+      "InstName" : "sd_rd",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+      "ModuleLine" : 28,
+      "ModuleName" : "top_sd_photo_vga",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+        "InstLine" : 110,
+        "InstName" : "u_pll_clk",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/gowin_pll/pll_sdram_sd_card.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "pll_sdram_sd_card"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+        "InstLine" : 122,
+        "InstName" : "u_sd_read_photo",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_read_photo.v",
+        "ModuleLine" : 8,
+        "ModuleName" : "sd_read_photo"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+        "InstLine" : 139,
+        "InstName" : "u_sd_ctrl_top",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_ctrl_top.v",
+        "ModuleLine" : 22,
+        "ModuleName" : "sd_ctrl_top_v",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_ctrl_top.v",
+          "InstLine" : 85,
+          "InstName" : "u_sd_init",
+          "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_init.v",
+          "ModuleLine" : 22,
+          "ModuleName" : "sd_init_v"
+         },
+         {
+          "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_ctrl_top.v",
+          "InstLine" : 98,
+          "InstName" : "u_sd_write",
+          "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_write.v",
+          "ModuleLine" : 22,
+          "ModuleName" : "sd_write_v"
+         },
+         {
+          "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_ctrl_top.v",
+          "InstLine" : 115,
+          "InstName" : "u_sd_read",
+          "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/sd_read.v",
+          "ModuleLine" : 22,
+          "ModuleName" : "sd_read_v"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/top_sd_photo_vga.v",
+        "InstLine" : 205,
+        "InstName" : "u_sdram",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_4port_top.v",
+        "ModuleLine" : 8,
+        "ModuleName" : "sdram_4port_top",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_4port_top.v",
+          "InstLine" : 71,
+          "InstName" : "u_sdram_fifo_ctrl",
+          "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+          "ModuleLine" : 8,
+          "ModuleName" : "sdram_fifo_ctrl",
+          "SubInsts" : [
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+            "InstLine" : 395,
+            "InstName" : "u_wrFIFO_0",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+            "ModuleLine" : 793,
+            "ModuleName" : "sdram_fifo",
+            "SubInsts" : [
+             {
+              "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+              "InstLine" : 820,
+              "InstName" : "fifo_inst",
+              "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+              "ModuleLine" : 13,
+              "ModuleName" : "~fifo.sdram_fifo"
+             }
+            ]
+           },
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+            "InstLine" : 406,
+            "InstName" : "u_wrFIFO_1",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+            "ModuleLine" : 793,
+            "ModuleName" : "sdram_fifo",
+            "SubInsts" : [
+             {
+              "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+              "InstLine" : 820,
+              "InstName" : "fifo_inst",
+              "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/ip_repo/fifo_top/sdram_fifo.v",
+              "ModuleLine" : 13,
+              "ModuleName" : "~fifo.sdram_fifo"
+             }
+            ]
+           },
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+            "InstLine" : 423,
+            "InstName" : "u_rdFIFO_0",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+            "ModuleLine" : 793,
+            "ModuleName" : "rd_fifo",
+            "SubInsts" : [
+             {
+              "InstFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+              "InstLine" : 820,
+              "InstName" : "fifo_inst",
+              "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+              "ModuleLine" : 13,
+              "ModuleName" : "~fifo.rd_fifo"
+             }
+            ]
+           },
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_fifo_ctrl.v",
+            "InstLine" : 434,
+            "InstName" : "u_rdFIFO_1",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+            "ModuleLine" : 793,
+            "ModuleName" : "rd_fifo",
+            "SubInsts" : [
+             {
+              "InstFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+              "InstLine" : 820,
+              "InstName" : "fifo_inst",
+              "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/fifo_top/rd_fifo.v",
+              "ModuleLine" : 13,
+              "ModuleName" : "~fifo.rd_fifo"
+             }
+            ]
+           }
+          ]
+         },
+         {
+          "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_4port_top.v",
+          "InstLine" : 115,
+          "InstName" : "u_sdram_controller",
+          "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_controller.v",
+          "ModuleLine" : 8,
+          "ModuleName" : "sdram_controller",
+          "SubInsts" : [
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_controller.v",
+            "InstLine" : 45,
+            "InstName" : "u_sdram_ctrl",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_ctrl.v",
+            "ModuleLine" : 9,
+            "ModuleName" : "sdram_ctrl"
+           },
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_controller.v",
+            "InstLine" : 64,
+            "InstName" : "u_sdram_cmd",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_cmd.v",
+            "ModuleLine" : 9,
+            "ModuleName" : "sdram_cmd"
+           },
+           {
+            "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_controller.v",
+            "InstLine" : 87,
+            "InstName" : "u_sdram_data",
+            "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SDRAM_4port/sdram_data.v",
+            "ModuleLine" : 9,
+            "ModuleName" : "sdram_data"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/Video_top.v",
+      "InstLine" : 149,
+      "InstName" : "rx",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_top.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "rx_top",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_top.v",
+        "InstLine" : 37,
+        "InstName" : "U1",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/detect_module.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "detect_module"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_top.v",
+        "InstLine" : 47,
+        "InstName" : "U2",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_bps_module.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "rx_bps_module"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_top.v",
+        "InstLine" : 57,
+        "InstName" : "U3",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/UART-RX/rx_control_module.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "rx_control_module"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 6,
+  "InstName" : "godson_rcg_module",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 6,
+  "ModuleName" : "godson_rcg_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 33,
+    "InstName" : "A_dotest_sync",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 168,
+    "ModuleName" : "dotest_sync"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 37,
+    "InstName" : "A_rst_filter",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 150,
+    "ModuleName" : "reset_sync"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 43,
+    "InstName" : "A_wdt_mux",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 55,
+    "InstName" : "A_srst_int32k",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 119,
+    "ModuleName" : "areset_sync"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 57,
+    "InstName" : "CLK8M_to_32k_int",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 726,
+    "ModuleName" : "clk8m_32k"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 62,
+    "InstName" : "A_scan_32k_cg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 64,
+    "InstName" : "A_osc32k_mux",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 66,
+    "InstName" : "A_cksel32k",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 323,
+    "ModuleName" : "clock_select_32k"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 185,
+  "InstName" : "cpu_rcg",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 185,
+  "ModuleName" : "cpu_rcg",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 221,
+    "InstName" : "A_srst_int32m",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 119,
+    "ModuleName" : "areset_sync"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 224,
+    "InstName" : "A_scan_clk_cg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 225,
+    "InstName" : "A_osc32m_mux",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 226,
+    "InstName" : "A_int32m_buf",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 589,
+    "ModuleName" : "TECH_CNBUF"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 255,
+    "InstName" : "A_int8_m",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 256,
+    "InstName" : "A_pclk_cg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 257,
+    "InstName" : "A_pclk_or",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 619,
+    "ModuleName" : "TECH_CNOR2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 263,
+    "InstName" : "A_cksel",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 341,
+    "ModuleName" : "clock_select_328",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "InstLine" : 397,
+      "InstName" : "i_lockup_sts1",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "ModuleLine" : 690,
+      "ModuleName" : "TECH_LATCH"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "InstLine" : 398,
+      "InstName" : "i_lockup_sts0",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "ModuleLine" : 690,
+      "ModuleName" : "TECH_LATCH"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "InstLine" : 399,
+      "InstName" : "i_lockup_cksel",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "ModuleLine" : 690,
+      "ModuleName" : "TECH_LATCH"
+     },
+     {
+      "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "InstLine" : 402,
+      "InstName" : "I_gfm",
+      "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+      "ModuleLine" : 462,
+      "ModuleName" : "gfmux",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 481,
+        "InstName" : "rst_a",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 119,
+        "ModuleName" : "areset_sync"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 482,
+        "InstName" : "rst_b",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 119,
+        "ModuleName" : "areset_sync"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 500,
+        "InstName" : "i_selb_sync",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 89,
+        "ModuleName" : "sync_module"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 528,
+        "InstName" : "cg_a",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 550,
+        "ModuleName" : "TECH_ICG"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 529,
+        "InstName" : "cg_b",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 550,
+        "ModuleName" : "TECH_ICG"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 532,
+        "InstName" : "band",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 599,
+        "ModuleName" : "TECH_CNAND2"
+       },
+       {
+        "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "InstLine" : 537,
+        "InstName" : "omux",
+        "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+        "ModuleLine" : 628,
+        "ModuleName" : "TECH_CNMUX2"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 274,
+    "InstName" : "A_clk328_buf",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 589,
+    "ModuleName" : "TECH_CNBUF"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 277,
+    "InstName" : "i_lockup_rdy_r",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 690,
+    "ModuleName" : "TECH_LATCH"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 289,
+    "InstName" : "A_cpu_clk_chop",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 290,
+    "InstName" : "A_bus_clk_chop",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 293,
+    "InstName" : "A_bcnt_m",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 294,
+    "InstName" : "A_bus_clk_or",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 619,
+    "ModuleName" : "TECH_CNOR2"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 296,
+    "InstName" : "A_srst_buscpu",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 119,
+    "ModuleName" : "areset_sync"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 299,
+    "InstName" : "i_lockup_syncen",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 690,
+    "ModuleName" : "TECH_LATCH"
+   },
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 313,
+    "InstName" : "A_vclk_mux",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 628,
+    "ModuleName" : "TECH_CNMUX2"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 543,
+  "InstName" : "cg_module",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 543,
+  "ModuleName" : "cg_module",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 546,
+    "InstName" : "cg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 649,
+  "InstName" : "TECH_CNDFFR",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 649,
+  "ModuleName" : "TECH_CNDFFR"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 661,
+  "InstName" : "TECH_CNXOR2",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 661,
+  "ModuleName" : "TECH_CNXOR2"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 706,
+  "InstName" : "FUNC_CG_CELL",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 706,
+  "ModuleName" : "FUNC_CG_CELL",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "InstLine" : 712,
+    "InstName" : "cg",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+    "ModuleLine" : 550,
+    "ModuleName" : "TECH_ICG"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "InstLine" : 715,
+  "InstName" : "TECH_BUF",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/godson_rcg_module.v",
+  "ModuleLine" : 715,
+  "ModuleName" : "TECH_BUF"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+  "InstLine" : 14,
+  "InstName" : "I2C_IOBUF",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+  "ModuleLine" : 14,
+  "ModuleName" : "I2C_IOBUF"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+  "InstLine" : 27,
+  "InstName" : "SPI_IOBUF",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/io_tools.v",
+  "ModuleLine" : 27,
+  "ModuleName" : "SPI_IOBUF"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+  "InstLine" : 7,
+  "InstName" : "la132_top_gowin_top",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+  "ModuleLine" : 7,
+  "ModuleName" : "la132_top_gowin_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+    "InstLine" : 247,
+    "InstName" : "la132_top_ins",
+    "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/la132_top_pack/la132_top_gowin.vp",
+    "ModuleLine" : 391,
+    "ModuleName" : "la132_top"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/led_alarm.v",
+  "InstLine" : 22,
+  "InstName" : "led_alarm",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/led_alarm.v",
+  "ModuleLine" : 22,
+  "ModuleName" : "led_alarm"
+ },
+ {
+  "InstFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/vga_driver.v",
+  "InstLine" : 38,
+  "InstName" : "vga_driver",
+  "ModuleFile" : "F:/a_loongarch/1C103/1C102/src/hw/Video/SD_VGA/vga_driver.v",
+  "ModuleLine" : 38,
+  "ModuleName" : "vga_driver"
+ }
+]

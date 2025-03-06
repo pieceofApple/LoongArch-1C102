@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "display.h": "c",
+        "soc_spi.h": "c",
+        "lcd_driver.h": "c",
+        "soc_gpio.h": "c"
+    }
+}

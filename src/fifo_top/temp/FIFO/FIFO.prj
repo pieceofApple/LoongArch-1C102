@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW5AT-138B" package="PBGA484A" speed="2" partNumber="GW5AT-LV138PG484AC2/I1"/>
+    <FileList>
+        <File path="F:/a_loongarch/1C103/1C102/src/fifo_top/temp/FIFO/fifo_define.v" type="verilog"/>
+        <File path="F:/a_loongarch/1C103/1C102/src/fifo_top/temp/FIFO/fifo_parameter.v" type="verilog"/>
+        <File path="F:/gowin_software/gowin/Gowin_V1.9.9.02_x64/IDE/ipcore/FIFO/data/edc.v" type="verilog"/>
+        <File path="F:/gowin_software/gowin/Gowin_V1.9.9.02_x64/IDE/ipcore/FIFO/data/fifo.v" type="verilog"/>
+        <File path="F:/gowin_software/gowin/Gowin_V1.9.9.02_x64/IDE/ipcore/FIFO/data/fifo_top.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="1"/>
+        <Option type="enable_dsrm" value="0"/>
+        <Option type="include_path" value="F:/a_loongarch/1C103/1C102/src/fifo_top/temp/FIFO"/>
+        <Option type="output_file" value="rd_fifo.vg"/>
+        <Option type="output_template" value="rd_fifo_tmp.v"/>
+        <Option type="ram_balance" value="1"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="sysv-2017"/>
+    </OptionList>
+</Project>
